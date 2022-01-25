@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box
+    
 }
 
 .image2{
@@ -10,6 +11,7 @@
     right: 0;
     display: flex;
     position: absolute;
+    
 } 
 
 .imagemDireita{
@@ -17,6 +19,7 @@
     right: 0;
     display: flex;
     position: absolute;
+    font-size: 0;
 }
 
 body{

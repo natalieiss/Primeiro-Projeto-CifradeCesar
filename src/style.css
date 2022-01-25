@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+.image2{
+    width: 666px;
+    right: 0;
+    display: flex;
+    position: absolute;
+} 
+
+.imagemDireita{
+    
+    right: 0;
+    display: flex;
+    position: absolute;
+}
+
+body{
+    position:relative;
+
+}

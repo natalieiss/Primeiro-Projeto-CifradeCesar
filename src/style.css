@@ -14,14 +14,6 @@
     
 } 
 
-.imagemDireita{
-    
-    right: 0;
-    display: flex;
-    position: absolute;
-    font-size: 0;
-}
-
 body{
     position:relative;
 

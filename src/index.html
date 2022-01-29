@@ -23,17 +23,15 @@
         <section class="page1">
         <legend>Escolha um método para codificar sua mensagem e depois clique no botão "COMEÇAR":</b></legend>
         <p></p>
-        <input type="radio" id="answerA" name="alternative" value="Cifrar">
-        <label for="answerA" id="idA">Cifrar</label>
+        <input type="radio" id="code" name="chose" value="Cifrar" class="escolher">
+        <label for="code" id="labelCode">Cifrar</label>
 
-        <input type="radio" id="answerB" name="alternative" value="Decifrar">
-        <label for="answerB" id="idB">Decifrar</label>
+        <input type="radio" id="decode" name="chose" value="decode" class="escolher">
+        <label for="decode" id="labelDecode">Decifrar</label><br>
+
+        <input type="submit" id="send" value="COMEÇAR" onclick="next(1)">
       </section>
       
-
-      <section class="page1">
-        <input type="submit" id="send" value="COMEÇAR" onclick="next(1)">        
-      </section>
 
       <section class="imagemDireita"> 
         <image class="image2" src="ImagemPagina1-2.jpg">
@@ -41,12 +39,12 @@
 
       <section class="page2">
         <legend>Escolha um número de 1 a 25:</b></legend>
-        <input type="text" id="letters" name="letters"><br>
+        <input type="number" id="offset" name="offset"><br>
         <legend>Agora, escolha a mensagem a ser decifrada</b></legend>
         <input type="text" id="letters" name="letters"><br>
-        <input type="submit" id="send1" value="CODIFICAR MENSAGEM" onclick="next(1)">
+        <input type="submit" id="send1" value="CODIFICAR MENSAGEM"> <!--  onclick="next(1)"> é pra mudar de pagina a função next-->
       </section>
-  
+
 
   </form>
 

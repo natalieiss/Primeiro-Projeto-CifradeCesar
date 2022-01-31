@@ -10,11 +10,13 @@ function offsetMessangerDecode() {
     offsetValue = offsetJs.value //offsetValue e nameValue sendo manipulado para coletar os valores que o usuario ira utilizar
     nameValue = messangerDecod.value
     console.log(nameValue, offsetValue)
+    cipher.code(nameValue, offsetValue)
 }
 
 buttonHtml.addEventListener('click', offsetMessangerDecode) // evento para que o botão inicie a captura das letras e numeros escolhidos pelo usuário
 
 import cipher from './cipher.js';
+
 
 /*console.log("letters1")
 

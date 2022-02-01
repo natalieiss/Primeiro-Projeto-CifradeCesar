@@ -5,7 +5,7 @@ const cipher = {
     for (let i = 0; i < text.length; i++) {
       let asciiNum = text[i].charCodeAt();
       if (asciiNum >= 65 && asciiNum <= 90) {
-        asciiNum = ((asciiNum - 65 + offsett) % 26) + 65; // (código da letra + deslocamento) % tamanho do alfabeto <== a porcentagem é o módulo :. a voltinha
+        asciiNum = ((asciiNum - 65 + offsett) % 26) + 65; // (código da letra + deslocamento) % tamanho do alfabeto <== a porcentagem é o módulo para retornar no inicio do alfabeto
       }
       else if (asciiNum >= 97 && asciiNum <= 122) { //se o usuário digitar letras minúsculas
         asciiNum = ((asciiNum - 97 + offsett) % 26) + 97;

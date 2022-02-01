@@ -16,21 +16,14 @@
   <header>
     <div>
       <h1><b>S</b>ecure <b>B</b>ee</h1>
-      <P>Sua plataforma de mensagens seguras.</P>
+      <P><b>Sua plataforma de mensagens seguras.</b></P>
     </div>
   </header>
-  <main>
-        <section class="page1">
-        <legend>Escolha um método para codificar sua mensagem e depois clique no botão "COMEÇAR":</b></legend>
-        <p></p>
-        <input type="radio" id="code" name="chose" value="Cifrar" class="escolher"> <!--para os botões se comunicarem o name tem que ser igual-->
-        <label for="code" id="labelCode">Cifrar</label>
+  <main>   
+       
+        <!-- 
 
-        <input type="radio" id="decode" name="chose" value="decode" class="escolher">
-        <label for="decode" id="labelDecode">Decifrar</label><br>
-
-        <input type="submit" id="send" value="COMEÇAR" onclick="next(1)">
-      </section>
+        -->
       
 
       <section class="imagemDireita"> 
@@ -38,12 +31,28 @@
         </section>
 
       <section class="page2">
-        <legend>Escolha um número:</b></legend>
-        <input type="number" id="offset" name="offset"><br>
-        <legend>Agora, escolha a mensagem a ser decifrada</b></legend>
-        <input type="text" id="letters" name="letters"><br>
-        <input type="submit" id="send1" value="CODIFICAR MENSAGEM"> <!--  onclick="next(1)"> é pra mudar de pagina a função next-->
+        <legend>Escolha o número de pólens que a sua abelinha vai carregar:</legend>
+        <input type="number" id="offset" name="offset" min="0" max="26" value="1" required><br>
+        <legend>Agora, digite a mensagem que a abelinha irá carregar:</legend>
+        <input type="txt" id="txt" name="txt"><br>
       </section>
+
+          
+      </section>
+      <section class="buttons">
+        <legend>Pronto! Agora escolha se deseja polinizar (cifrar) ou despolinizar (decifrar) a sua mensagem:</legend>
+        <p></p>
+        <button type="submit" id="buttonEncode">POLINIZAR</button>
+        <button type="submit" id="buttonDecode">DESPOLINIZAR</button><br>
+       
+        </section>
+
+        <section class="page3">
+          <legend>Pronto, você polinizou a flor e sua mensagem agora é:</legend>
+          <!-- queria colocar uma mensagem pra polinizar e outra pra despolinizar mas como faço isso?-->
+          <textarea id="textResult" name="textResult">  </textarea><br>
+          <button type="reset" id="buttonCleaner">RETORNAR A COLMEIA</button>
+          </section>
 
 
   </form>
@@ -54,8 +63,24 @@
 -->
 
 
-
-      <script src="index.js" type="module"></script>
+  <footer>
+  <p>Developed by
+    <a href="https://github.com/natalieiss" target="_blank"> <!-- target="_blank" instrui o navegador a criar uma nova guia quando o usuario clicar-->
+      <strong class="github">@natalieiss</strong></a>
+  </p>
+  </footer>
+  <script src="index.js" type="module"></script>
 </body>
 
 </html>
+
+
+<!--
+  <input type="radio" id="code" name="chose" value="cifrar" class="escolher"> <!--para os botões se comunicarem o name tem que ser igual)
+  <label for="code" id="labelCode">Cifrar</label>
+
+  <input type="radio" id="decode" name="chose" value="decode" class="escolher">
+  <label for="decode" id="labelDecode">Decifrar</label><br>
+
+  <input type="submit" id="send" value="COMEÇAR" onclick="next(1)"> (não sabia como fazer essa função de click funcionar por isso deixei de lado)
+-->

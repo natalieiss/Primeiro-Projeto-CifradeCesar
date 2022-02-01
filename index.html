@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Natalie I. S. Santos">
+  <meta name="descrption" content="SecureBee">
+  <meta name="keywords" content="caesar cipher">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1><b>S</b>ecure <b>B</b>ee</h1>
+      <P>Sua plataforma de mensagens seguras.</P>
+    </div>
+  </header>
+  <main>
+        <section class="page1">
+        <legend>Escolha um método para codificar sua mensagem e depois clique no botão "COMEÇAR":</b></legend>
+        <p></p>
+        <input type="radio" id="code" name="chose" value="Cifrar" class="escolher"> <!--para os botões se comunicarem o name tem que ser igual-->
+        <label for="code" id="labelCode">Cifrar</label>
+
+        <input type="radio" id="decode" name="chose" value="decode" class="escolher">
+        <label for="decode" id="labelDecode">Decifrar</label><br>
+
+        <input type="submit" id="send" value="COMEÇAR" onclick="next(1)">
+      </section>
+      
+
+      <section class="imagemDireita"> 
+        <image class="image2" src="ImagemPagina1-2.jpg">
+        </section>
+
+      <section class="page2">
+        <legend>Escolha um número:</b></legend>
+        <input type="number" id="offset" name="offset"><br>
+        <legend>Agora, escolha a mensagem a ser decifrada</b></legend>
+        <input type="text" id="letters" name="letters"><br>
+        <input type="submit" id="send1" value="CODIFICAR MENSAGEM"> <!--  onclick="next(1)"> é pra mudar de pagina a função next-->
+      </section>
+
+
+  </form>
+
+</main>
+      
+<!-- <image src=nomedaimagem.png>
+-->
+
+
+
+      <script src="index.js" type="module"></script>
+</body>
+
+</html>

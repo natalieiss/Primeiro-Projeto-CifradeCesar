@@ -1,25 +1,25 @@
-document.getElementById('btnEncode').addEventListener("click", cifrar);
-document.getElementById('btnDecode').addEventListener("click", decifrar);
-document.getElementById('btnClear').addEventListener("click", limpar)
+document.getElementById('buttonEncode').addEventListener("click", polinizar);
+document.getElementById('buttonDecode').addEventListener("click", despolinizar);
+document.getElementById('buttonCleaner').addEventListener("click", retornarAColmeia);
 
 
-function cifrar () { 
-  let texto = document.getElementById("message").value.toUpperCase(); //ler o texto da cx1 e transforma minusculo em maiscula
-  let offset = Number(document.getElementById("offset").value); //identifica o deslocamento selecionado
-      document.getElementById("txtResult").value=cipher.encode(offset, texto); //passa a msg da cx1 para a cx2
+function polinizar () { 
+  let text = document.getElementById("txt").value.toUpperCase(); 
+  let offset = Number(document.getElementById("offset").value);
+      document.getElementById("txtResult").value=cipher.encode(offset, text);
     } 
 
 
-function decifrar () {
-  let texto = document.getElementById("message").value.toUpperCase();
+function despolinizar () {
+  let text = document.getElementById("txt").value.toUpperCase();
   let offset = Number(document.getElementById("offset").value);
   
-      document.getElementById("txtResult").value=cipher.decode(offset, texto);
+      document.getElementById("txtResult").value=cipher.decode(offset, text);
     }
   
 
-function limpar () { //resetar todos os campos
-  document.getElementById("message").value="";
+function retornarAColmeia () { 
+  document.getElementById("txt").value="";
   document.getElementById("txtResult").value="";
   document.getElementById("offset").value="1";
 }

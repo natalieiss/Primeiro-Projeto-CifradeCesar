@@ -1,6 +1,6 @@
 const cipher = {
   
-  encode(offset, text) {
+  encode: function (offset, text) {
     let textCipher = ""; 
     let letters = text.length
     for (let i = 0; i < letters; i++) {
@@ -18,7 +18,7 @@ const cipher = {
   return textCipher; 
   },
 
-  decode(offset, text) {
+  decode: function (offset, text) {
 
     let textDecipher = "";
     let letters = text.length

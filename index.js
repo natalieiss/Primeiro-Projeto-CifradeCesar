@@ -1,31 +1,34 @@
+import cipher from './cipher.js';
+
 document.getElementById('buttonEncode').addEventListener("click", polinizar);
 document.getElementById('buttonDecode').addEventListener("click", despolinizar);
 document.getElementById('buttonCleaner').addEventListener("click", retornarAColmeia);
 
 
-function polinizar () { 
-  let text = document.getElementById("txt").value.toUpperCase(); 
-  let offset = Number(document.getElementById("offset").value);
-      document.getElementById("txtResult").value=cipher.encode(offset, text);
-      /*let textContentVai = document.getElementById("txtResult")
-      textContentVai.textContent = cipher.encode(offset, text);*/
-    } 
+function polinizar() {
 
-
-function despolinizar () {
   let text = document.getElementById("txt").value.toUpperCase();
   let offset = Number(document.getElementById("offset").value);
-  
-      document.getElementById("txtResult").value=cipher.decode(offset, text);
-    }
-  
-
-function retornarAColmeia () { 
-  document.getElementById("txt").value="";
-  document.getElementById("txtResult").value="";
-  document.getElementById("offset").value="1";
+  document.getElementById("textResult").value = cipher.encode(offset, text);
+  /*let textContentVai = document.getElementById("txtResult")
+  textContentVai.textContent = cipher.encode(offset, text);*/
 }
-import cipher from './cipher.js';
+
+
+function despolinizar() {
+  let text = document.getElementById("txt").value.toUpperCase();
+  let offset = Number(document.getElementById("offset").value);
+
+  document.getElementById("textResult").value = cipher.decode(offset, text);
+}
+
+
+function retornarAColmeia() {
+  document.getElementById("txt").value = "";
+  document.getElementById("textResult").value = "";
+  document.getElementById("offset").value = "1";
+}
+
 
 /* const messangerDecod = document.getElementById("letters") // const para pegar o valor de letters e gravar na variavel pra manipular no js as palavras
 const offsetJs = document.getElementById("offset") // const para pegar o valor de offset no html e gravar na variavel pra manipular no js o numero escolhido

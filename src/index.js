@@ -7,6 +7,8 @@ function polinizar () {
   let text = document.getElementById("txt").value.toUpperCase(); 
   let offset = Number(document.getElementById("offset").value);
       document.getElementById("txtResult").value=cipher.encode(offset, text);
+      /*let textContentVai = document.getElementById("txtResult")
+      textContentVai.textContent = cipher.encode(offset, text);*/
     } 
 
 

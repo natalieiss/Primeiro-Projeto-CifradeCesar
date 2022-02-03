@@ -16,56 +16,67 @@
   <header>
     <div>
       <h1><b>S</b>ecure <b>B</b>ee</h1>
-      <P><b>Sua plataforma de mensagens seguras.</b></p>
     </div>
   </header>
-  <main>   
-       
+  <main>
+    <img src = "images/ImagemPagina1.png" alt = "Imagem de uma abelha" width="170" height="240"><p><b>Sua plataforma de mensagens seguras.</b></p><hr />
+
     <section class="explanations">
-      <legend>Utilizar o site da SecureBee é uma experiência rápida e fácil.<p></p>Destinada a todas as idades, a SecureBee utiliza um mecanismo denominado
-      <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">
-      <strong class="linkcipher">Cifra de César</strong></a> para tornar secreta a sua mensagem. <p></p>Sabemos que as abelhinhas, na natureza, são importantes polinizadoras e fazem constantemente o papel de transportar os pólens de<p></p>uma flor masculina para uma flor feminina. As abelhinhas da SecureBee, carregam o número de pólens que o usuário escolher e<p></p>assim, conseguem fazer o mesmo papel das abelhinhas polinizadoras. Elas voam de uma flor para a outra transportando a sua<p></p>mensagem até um ambiente seguro com a opção "polinizar", cifrando e tranformando-as em um conjunto embaralhado de letras.<p></p>As abelhinhas da SecureBee também são ensinadas a voarem de volta para a flor inicial dezembaralhando e decifrando a sua mensagem<p></p>com a opção que aqui denominamos "depolinizar". </legend>
+      <legend>Utilizar o site da SecureBee é uma experiência rápida e fácil.<p></p>Destinada a todas as idades, a
+        SecureBee utiliza um mecanismo denominado
+        <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">
+          <strong class="linkcipher">Cifra de César</strong></a> para tornar secreta a sua mensagem. <p></p>Sabemos que
+        as abelhinhas, na natureza, são importantes polinizadoras e fazem constantemente o papel de transportar os
+        pólens de<p></p>uma flor masculina para uma flor feminina. As abelhinhas da SecureBee, carregam o número de
+        pólens (deslocamento das letras)<p></p>que o usuário escolher e assim, conseguem fazer o mesmo papel das abelhinhas polinizadoras. Elas voam de uma flor para a outra<p></p>transportando a sua mensagem até um ambiente seguro com a opção "polinizar",
+        cifrando e tranformando-as em um conjunto<p></p>embaralhado de letras. As abelhinhas da SecureBee também são
+        ensinadas a voarem de volta para a flor inicial dezembaralhando<p></p>e decifrando a sua mensagem com a opção
+        que aqui denominamos "depolinizar".<p></p>Selecione a opção "retornar a colmeia" para digitar novamente a sua
+        mensagem e reiniciar a seleção do número de pólens.
+      </legend>
     </section>
-          
 
-      <section class="page2">
-        <legend>Escolha o número de pólens que a sua abelhinha vai carregar:</legend>
-        <input type="number" id="offset" name="offset" min="0" max="26" value="1" required><br>
-        <legend>Agora, digite a mensagem que a abelhinha irá carregar:</legend>
-        <input type="txt" id="txt" name="txt"><br>
-      </section>
+    <section class="slice1">
+      <legend>Escolha o número de pólens que a sua abelhinha vai carregar:</legend>
+      <input type="number" id="offset" name="offset" min="0" max="26" value="1" required><br>
+      <legend>Atenção o número de pólens funciona como um número de segurança, para decifrar (opção despolinizar)<p></p>
+        a mensagem é necessário inserir o mesmo número de pólens que você utilizou para cifra-la (opção polinizar). </legend>
+      <legend>Agora, digite a mensagem que a abelhinha irá carregar:</legend>
+      <input type="txt" id="txt" name="txt"><br>
+    </section>
 
-          
-      <section class="buttons">
-        <legend>Pronto! Agora escolha se deseja polinizar (cifrar) ou despolinizar (decifrar) a sua mensagem:</legend>
-        <p></p>
-        <button type="submit" id="buttonEncode">POLINIZAR</button>
-        <button type="submit" id="buttonDecode">DESPOLINIZAR</button><br>
-       
-        </section>
 
-        <section class="page3">
-          <legend id = "firstResult">Que <b>Bee</b>leza, você polinizou a flor e sua mensagem agora é:</legend>
-          <legend id = "secondResult"> Sua abelhinha retornou a flor de origem com a seguinte mensagem:</legend>
-          <!-- queria colocar uma mensagem pra polinizar e outra pra despolinizar mas como faço isso?-->
-          <textarea id="textResult" name="textResult"></textarea><br>
-          <button type="reset" id="buttonCleaner">RETORNAR A COLMEIA</button>
-          </section>
+    <section class="buttons">
+      <legend>Pronto! Agora escolha se deseja polinizar (cifrar) ou despolinizar (decifrar) a sua mensagem:</legend>
+      <p></p>
+      <button type="submit" id="buttonPolinizar">POLINIZAR</button>
+      <button type="submit" id="buttonDespolinizar">DESPOLINIZAR</button><br>
 
-          
-  </form>
+    </section>
 
-</main>
-      
-<!-- <image src=nomedaimagem.png>
+    <section class="slice2">
+      <legend id="polinizarResult">Que <b>Bee</b>leza, você polinizou a flor e sua mensagem agora é:</legend>
+      <legend id="despolinizarResult"> Sua abelhinha retornou a flor de origem com a seguinte mensagem:</legend>
+      <!-- queria colocar uma mensagem pra polinizar e outra pra despolinizar mas como faço isso?-->
+      <textarea id="textResult" name="textResult"></textarea><br>
+      <button type="reset" id="buttonReturnColmeia">RETORNAR A COLMEIA</button>
+    </section>
+
+
+
+  </main>
+
+  <!-- <image src=/nomedaimagem.png>
 -->
 
 
   <footer>
-  <p>Developed by
-    <a href="https://github.com/natalieiss" target="_blank"> <!-- target="_blank" instrui o navegador a criar uma nova guia quando o usuario clicar-->
-      <strong class="github">@natalieiss</strong></a>
-  </p>
+    <p>Developed by
+      <a href="https://github.com/natalieiss" target="_blank">
+        <!-- target="_blank" instrui o navegador a criar uma nova guia quando o usuario clicar-->
+        <strong class="github">@natalieiss</strong>
+      </a>
+    </p>
   </footer>
   <script src="index.js" type="module"></script>
 </body>

@@ -1,17 +1,16 @@
 import cipher from './cipher.js';
 
-document.getElementById('buttonEncode').addEventListener("click", polinizar);
-document.getElementById('buttonDecode').addEventListener("click", despolinizar);
-document.getElementById('buttonCleaner').addEventListener("click", retornarAColmeia);
-
+document.getElementById('buttonPolinizar').addEventListener("click", polinizar);
+document.getElementById('buttonDespolinizar').addEventListener("click", despolinizar);
+document.getElementById('buttonReturnColmeia').addEventListener("click", retornarAColmeia);
 
 function polinizar() {
 
   let text = document.getElementById("txt").value.toUpperCase();
   let offset = Number(document.getElementById("offset").value);
   document.getElementById("textResult").value = cipher.encode(offset, text);
-  /*let textContentVai = document.getElementById("txtResult")
-  textContentVai.textContent = cipher.encode(offset, text);*/
+  /*polinizarTextValue.textContent let textContentVai = document.getElementById("txtResult")
+  textContentVai.textContent */ //utilizar esse procedimento para mensagens
 }
 
 

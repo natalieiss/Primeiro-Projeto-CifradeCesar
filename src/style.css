@@ -11,7 +11,7 @@
     float: left;
     padding: 5px;
     margin: 0px 10px 10px 0;
-    position: absolute;
+    position: relative;
     display: flex;
    }
 
@@ -20,26 +20,25 @@
     display: flex;
     vertical-align: top;
     margin-top: 0px;
-    border-radius: 333px;
-    /*-webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);   */
+    border-radius: 400px;
     right: -50px;
     top: -50px;
     object-fit: cover;
     object-position: 20% 10%;
-    transform: translate(+40%,-20%);
+    transform: translate(+45%,-11%);
+    position: relative;
     
 }
 
 .headOne {
-    font-family: French;
+    font-family: French Script MT;
     font-weight: 400;
     font-style: normal;
     font-size: 34px;
     line-height: 87,89px;
     letter-spacing: 3%;
-    text-align: center;
+    text-align: start;
+    width: 1000px;
 }
 
 .letterOnce {
@@ -51,6 +50,25 @@
     letter-spacing: 3%;
     color:rgb(255, 196, 0);
 }
+
+.explanations {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    margin-top: 20px;
+    left: 30%;
+
+}
+
+.motherText{
+    display: flex;
+    align-items: center;
+   justify-content:center;
+   flex-direction: column;
+
+}
+
+
 
 /*Line height 
 87,89px
@@ -75,7 +93,7 @@ Letter
 body{
     
     position:relative;
-    overflow: hidden;
+    overflow-x: hidden;
 
 }
 /*criar a classe display none

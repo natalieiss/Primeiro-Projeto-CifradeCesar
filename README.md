@@ -4,17 +4,17 @@
 <img src="imagensreadme/imagemdalaboratoria.png" alt="Logo da Laboratória" width="200"/>
 </p>
 
-## **INDICE:**
+## **ÍNDICE:**
 1. [PROJETO ESCOLHIDO](#1-projeto-escolhido)
 2. [RESUMO DO PROJETO](#2-resumo-do-projeto-e-publico-alvo)
 3. [PROPOSTAS DE USUÁRIO](#3-propostas-de-usuario)
-4. [OBJETIVOS DE APRENDIZAGEM ALCAÇADOS](#4-objetivos-de-aprendizagem-alcançados)
+4. [OBJETIVOS DE APRENDIZAGEM ALCANÇADOS](#4-objetivos-de-aprendizagem-alcançados)
 5. [DEPLOY DO PROJETO](#5-deploy-do-projeto)
 
 # [PROJETO ESCOLHIDO](#1-projeto-escolhido)
 
 <p align="center">
-<img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="300"/>
+<img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="200"/>
 </p>
 
 Em razão de ser o meu primeiro projeto, escolhi a **Cifra de César** devido a um menor grau de dificuldade e proposta mais simples.
@@ -25,13 +25,13 @@ Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados n
 # [RESUMO DO PROJETO E PUBLICO ALVO](#2-resumo-do-projeto-e-publico-alvo)
 
 <p align="center">
-<img src="imagensreadme/imagemdaabelinha.png" alt="Imagem de uma Abelhinha em uma Flor" width="300"/>
+<img src="imagensreadme/imagemdaabelhinha.png" alt="Imagem de uma Abelhinha em uma Flor" width="200"/>
 </p>
 
-Imaginei a criação de uma aplicação web visualmente singela que fosse adequada a simplicidade da proposta do projeto.
+Imaginei a criação de uma aplicação web visualmente objetiva que fosse adequada a simplicidade da proposta do projeto.
 Com o auxílio do aplicativo FIGMA iniciei a criação de um protótipo e com base nele realizei uma pesquisa UX que constituiu apenas em uma breve apresentação do protótipo às pessoas do meu convívio social. 
 Através dessa breve pesquisa iniciei o desenvolvimento da aplicação web sempre com a intenção de que a experiência de usuário no site fosse rápida, fácil e segura.
-Atualmente nos deparamos com crianças portando tablets e aparelhos celulares com aplicativos de mensagens instalados os quais já utilizam para troca de mensagens com seus parentes e amigos. Desta forma, imaginei um sistema de segurança baseado na Cifra de César que fosse ainda mais fácil compreender e destinado a crianças que já iniciaram a leitura e a escrita, por volta dos 7 anos, que igualmente abrangesse toda a idade adulta.
+Atualmente nos deparamos com crianças portando tablets e aparelhos celulares com aplicativos de mensagens instalados os quais já utilizam para troca de mensagens com seus parentes e amigos. Desta forma, imaginei um sistema de segurança baseado na Cifra de César que fosse ainda mais fácil compreender e destinado a crianças que já iniciaram a leitura e a escrita, o que ocorre por volta dos 7 anos de idade, com abrangência a idade adulta.
 Os desenhos e imagens presentes neste projeto remetem aos utilizados para colorir nas escolinhas. A abelha aqui funciona como uma portadora da mensagem segura por isso o nome SecureBee.
 Ao lado direito da página posicionei uma imagem de colorir de uma avenida em uma grande cidade pois a colmeia das abelhinhas da SecureBee seriam um ambiente urbano. 
 Sabemos que as abelhinhas, na natureza, são importantes polinizadoras e fazem o papel de transportar os pólens de uma flor masculina para uma flor feminina. As abelhinhas que imaginei para a SecureBee seriam as responsáveis pelo funcionamento de todo o mecanismo da Cifra de César. Os pólens seriam o deslocamento das letras, a polinização seria a função cifrar e a despolização (palavra criada por mim) seria a função de decifrar.

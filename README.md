@@ -14,7 +14,7 @@
 # [PROJETO ESCOLHIDO](#1-projeto-escolhido)
 
 <p align="center">
-<img src="https://i.pinimg.com/550x/10/b3/d2/10b3d21a4714660514dd327361c13459.jpg" alt="drawing" width="200"/>
+<img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="200"/>
 </p>
 
 Em razão de ser o meu primeiro projeto, escolhi a **Cifra de César** devido a um menor grau de dificuldade e proposta mais simples.
@@ -25,7 +25,7 @@ Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados n
 # [RESUMO DO PROJETO E PUBLICO ALVO](#2-resumo-do-projeto-e-publico-alvo)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/40282757/152251253-6992c6d8-4f9b-46c1-9f21-3f7ccef0f7b8.png" alt="drawing" width="320"/>
+<img src="imagensreadme/imagemdaabelinha.png" alt="Imagem de uma Abelhinha em uma Flor" width="200"/>
 </p>
 
 Imaginei a criação de uma aplicação web visualmente singela que fosse adequada a simplicidade da proposta do projeto.
@@ -40,7 +40,7 @@ Através desse mecanismo as abelhinhas fariam um trajeto fictício, portando a m
 # [PROPOSTAS DE USUÁRIO](#3-propostas-de-usuario)
 
 <p align="center">
-<img src="https://bmwebstatic.bizmerlin.com/images/earmark_goals_to_your_team_members.png" alt="drawing" width="300"/>
+<img src="imagensreadme/usuarios.jpg" alt="Imagem dos Usuários" width="300"/>
 </p>
 
 Estas são as propostas destinadas ao usuário:
@@ -52,7 +52,7 @@ Estas são as propostas destinadas ao usuário:
 # [OBJETIVOS DE APRENDIZAGEM ALCANÇADOS](#4-objetivos-de-aprendizagem-alcançados)
 
 <p align="center">
-<img src="https://www.sebrae.com.br/Sebrae/Portal%20Sebrae/UFs/AP/Imagens/xSaiba,P20como,P20estabelecer,P20metas,P20para,P20chegar,P20ao,P20sucesso.png.pagespeed.ic.TWEqcAavRs.png" alt="drawing" width="300"/>
+<img src="imagensreadme/objetivosdeaprendizagem.jpg" alt="Imagem representando os Objetivos de Aprendizagem" width="300"/>
 </p>
 
 Este projeto veio acompanhado de uma lista de objetivos de aprendizagem, sendo assim, segui todas as recomendações contidas no README do projeto tentando sempre aprimorar o conhecimento nos tópicos ressaltados pela equipe e acredito que aprimorei minhas habilidades nos seguintes tópicos: 
@@ -64,6 +64,10 @@ Este projeto veio acompanhado de uma lista de objetivos de aprendizagem, sendo a
 - GIT/GITHUB;
 
 # [DEPLOY DO PROJETO](#5-deploy-do-projeto)
+
+<p align="center">
+<img src="imagensreadme/deploy.jpg" alt="Imagem representando os Objetivos de Aprendizagem" width="300"/>
+</p>
 
 Este projeto está disponível para utilização e visualização online através do seguinte endereço web (URL):
 

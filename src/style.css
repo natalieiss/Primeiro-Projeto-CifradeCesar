@@ -52,48 +52,91 @@
 }
 
 .explanations {
-    text-align: center;
-    font-size: 15px;
+    text-align:justify;
+    font-size: 20px;
     position: relative;
     margin-top: 20px;
-    left: 30%;
+    left: 10%;
+    font-style: normal;
+    font-size: 180%;
+    right: 0%;
+    
 
 }
 
 .motherText{
-    display: flex;
-    align-items: center;
-   justify-content:center;
-   flex-direction: column;
+    font-family: French Script MT;
+    align-items: left;
+    justify-content: left;
+    flex-direction:column;
+    margin: 10px;
+    width: 600px;
 
 }
 
+.messangerPlatform{
+    align-items: left;
+}
+
+.secureBee{
+    color: rgb(255, 196, 0);
+    font-family: Calibri;
+}
+
+.button {
+    font-family: Calibri;
+    width: 40%;
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    align-items: center;
+    left: 10%;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+.button span {
+    position: relative;
+    transition: 0.5s;
+}
 
 
-/*Line height 
-87,89px
-Letter 
-3%
-Ag
-Font 
-French Script MT
-Weight 
-400
-Style 
-normal
-Size 
-72px
-Line height 
-82,05px
-Letter 
-3%
-}*/
+.button:hover span {
+    padding-right: 25px;
+    left: 10%;
+}
+
+.polenBox {
+    border-color: black;
+    border-style: none;
+    border: solid;
     
+}
 
-body{
+textarea {
+    width: 617px;
+    height: 153px;
+    border-color: black;
+    border-style: none;
+    border: solid;
     
-    position:relative;
+}
+
+.messangerPolen {
+    font-family: Calibri;
+    font-size: 50%;
+}
+
+body {
+    
+    position: relative;
     overflow-x: hidden;
 
 }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
 /*criar a classe display none

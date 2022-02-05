@@ -8,76 +8,80 @@
   <meta name="Author" content="Natalie I. S. Santos">
   <meta name="descrption" content="SecureBee">
   <meta name="keywords" content="caesar cipher">
-  <title>Caesar Cipher</title>
+  <title>SecureBee</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
   <header>
-   
+<!-- não sei se posso deixar vazia essa caixa ou se posso tira-la-->
   </header>
 
   <main>
 
     <section class="imgOne">
-      <img src = "images/ImagemPagina1.png" alt = "Imagem de uma abelha" width="170" height="240">
+      <img src="images/ImagemPagina1.png" alt="Imagem de uma abelha" width="170" height="240">
     </section>
 
     <section class="headOne">
       <h1><b class="letterOnce">S</b>ecure <b class="letterOnce">B</b>ee</h1>
+      <p><b>Sua plataforma de mensagens seguras.</b></p>
     </section>
-
-    <!--<section class="imgOne">
-      <img src = "images/ImagemPagina1.png" alt = "Imagem de uma abelha" width="170" height="240">
-    </section>-->
 
     <section class="imgTwo">
-      <img src = "images/ImagemPagina1-2.jpg" alt = "Imagem de uma avenida de uma capital" height="700">
-    </section>
-    
-    <section class="explanations">
-      <legend>
-        <p><b>Sua plataforma de mensagens seguras.</b></p>
-        Utilizar o site da SecureBee é uma experiência rápida e fácil.<p></p>Destinada a todas as idades, a
-        SecureBee utiliza um mecanismo denominado
-        <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">
-          <strong class="linkcipher">Cifra de César</strong></a> para tornar secreta a sua mensagem. <p></p>Sabemos que
-        as abelhinhas, na natureza, são importantes polinizadoras e fazem constantemente o papel de transportar os
-        pólens de<p></p>uma flor masculina para uma flor feminina. As abelhinhas da SecureBee, carregam o número de
-        pólens (deslocamento das letras)<p></p>que o usuário escolher e assim, conseguem fazer o mesmo papel das abelhinhas polinizadoras. Elas voam de uma flor para a outra<p></p>transportando a sua mensagem até um ambiente seguro com a opção "polinizar",
-        cifrando e tranformando-as em um conjunto<p></p>embaralhado de letras. As abelhinhas da SecureBee também são
-        ensinadas a voarem de volta para a flor inicial dezembaralhando<p></p>e decifrando a sua mensagem com a opção
-        que aqui denominamos "depolinizar".<p></p>Selecione a opção "retornar a colmeia" para digitar novamente a sua
-        mensagem e reiniciar a seleção do número de pólens.
-      </legend>
+      <img src="images/ImagemPagina1-2.jpg" alt="Imagem de uma avenida de uma capital" width="790" height="800">
     </section>
 
-    <section class="slice1">
-      <legend>Escolha o número de pólens que a sua abelhinha vai carregar:</legend>
-      <input type="number" id="offset" name="offset" min="0" max="26" value="1" required><br>
-      <legend>Atenção o número de pólens funciona como um número de segurança, para decifrar (opção despolinizar)<p></p>
-        a mensagem é necessário inserir o mesmo número de pólens que você utilizou para cifra-la (opção polinizar). </legend>
-      <legend>Agora, digite a mensagem que a abelhinha irá carregar:</legend>
-      <input type="txt" id="txt" name="txt"><br>
-    </section>
+    <div class="motherText">
+
+      <section class="explanations">
+        <legend>
+          Utilizar o site da <strong><b class="secureBee">S</b>ecure<b class="secureBee">B</b>ee</b></strong> é uma experiência rápida, fácil e segura. Destinada a todas as idades, a
+          <strong><b class="secureBee">S</b>ecure<b class="secureBee">B</b>ee</b></strong> utiliza um mecanismo denominado
+          <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">
+            <strong class="linkcipher">cifra de césar</strong></a> para tornar secreta a sua mensagem de uma forma divertida. Sabemos que
+          as abelhinhas, na natureza, são importantes polinizadoras e fazem constantemente o papel de transportar os
+          pólens de uma flor masculina para uma flor feminina. As abelhinhas da <strong><b class="secureBee">S</b>ecure<b class="secureBee">B</b>ee</b></strong>, carregam o número de
+          <strong>pólens (deslocamento das letras)</strong> que o usuário escolher e assim, conseguem fazer o mesmo papel das abelhinhas
+          polinizadoras. Elas voam de uma flor para a outra transportando a sua mensagem até um ambiente seguro
+          com a opção <strong>"polinizar"</strong>,
+          cifrando e tranformando-as em um conjunto embaralhado de letras. As abelhinhas da <strong><b class="secureBee">S</b>ecure<b class="secureBee">B</b>ee</b></strong> também são
+          ensinadas a voarem de volta para a flor inicial dezembaralhando e decifrando a sua mensagem com a opção
+          que aqui denominamos <strong>"depolinizar"</strong>. Selecione a opção <strong>"retornar a colmeia"</strong> para digitar novamente a sua
+          mensagem e reiniciar a seleção do número de pólens.
+        </legend>
+      </section>
+
+      <section class="explanations">
+        <legend>Escolha o número de pólens que a sua abelhinha vai carregar:</legend>
+        <input type="number" id="offset" name="offset" min="0" max="26" value="1" required class="polenBox"><br>
+        <legend class="messangerPolen"><em><strong>Atenção</strong> o número de pólens funciona como um número de segurança, para decifrar <strong>(opção despolinizar)</strong><p>
+          </p>
+          a mensagem é necessário inserir o mesmo número de pólens que você utilizou para cifra-la <strong>(opção polinizar)</strong></em>.
+        </legend><br>
+        <legend>Agora, digite a mensagem que a abelhinha irá carregar:</legend>
+        <textarea id="txt" name="txt"></textarea><br>
+      </section>
 
 
-    <section class="buttons">
-      <legend>Pronto! Agora escolha se deseja polinizar (cifrar) ou despolinizar (decifrar) a sua mensagem:</legend>
-      <p></p>
-      <button type="submit" id="buttonPolinizar">POLINIZAR</button>
-      <button type="submit" id="buttonDespolinizar">DESPOLINIZAR</button><br>
+      <section class="explanations">
+        <legend><strong>Pronto!</strong> Agora escolha se deseja <strong>polinizar (cifrar)</strong> ou <strong>despolinizar (decifrar)</strong> a sua mensagem:</legend>
+        <p></p>
+        <button type="submit" id="buttonPolinizar" class="button"><span>POLINIZAR</span></button>
+        <button type="submit" id="buttonDespolinizar" class="button"><span>DESPOLINIZAR</span></button><br>
 
-    </section>
+      </section>
 
-    <section class="slice2">
-      <legend id="polinizarResult">Que <b>Bee</b>leza, você polinizou a flor e sua mensagem agora é:</legend>
-      <legend id="despolinizarResult"> Sua abelhinha retornou a flor de origem com a seguinte mensagem:</legend>
-      <!-- queria colocar uma mensagem pra polinizar e outra pra despolinizar mas como faço isso?-->
-      <textarea id="textResult" name="textResult"></textarea><br>
-      <button type="reset" id="buttonReturnColmeia">RETORNAR A COLMEIA</button>
-    </section>
+      <section class="explanations">
+        <legend id="polinizarResult">Que <strong><b class="secureBee">B</b>ee</strong>leza, você polinizou a flor e sua mensagem agora é:</legend>
+        <legend id="despolinizarResult"> Sua abelhinha retornou a flor de origem com a seguinte mensagem:</legend>
+        <!-- queria colocar uma mensagem pra polinizar e outra pra despolinizar mas como faço isso?-->
+        <textarea id="textResult" name="textResult"></textarea><br>
+        <button type="reset" id="buttonReturnColmeia" class="button"><span>RETORNAR A COLMEIA</span></button>
+      </section>
+
+    </div>
 
 
 

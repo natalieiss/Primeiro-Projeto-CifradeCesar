@@ -11,7 +11,7 @@
     float: left;
     padding: 5px;
     margin: 0px 10px 10px 0;
-    position: absolute;
+    position: relative;
     display: flex;
    }
 
@@ -20,26 +20,25 @@
     display: flex;
     vertical-align: top;
     margin-top: 0px;
-    border-radius: 333px;
-    /*-webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);   */
+    border-radius: 400px;
     right: -50px;
     top: -50px;
     object-fit: cover;
     object-position: 20% 10%;
-    transform: translate(+40%,-20%);
+    transform: translate(+45%,-11%);
+    position: relative;
     
 }
 
 .headOne {
-    font-family: French;
+    font-family: French Script MT;
     font-weight: 400;
     font-style: normal;
     font-size: 34px;
     line-height: 87,89px;
     letter-spacing: 3%;
-    text-align: center;
+    text-align: start;
+    width: 1000px;
 }
 
 .letterOnce {
@@ -52,30 +51,92 @@
     color:rgb(255, 196, 0);
 }
 
-/*Line height 
-87,89px
-Letter 
-3%
-Ag
-Font 
-French Script MT
-Weight 
-400
-Style 
-normal
-Size 
-72px
-Line height 
-82,05px
-Letter 
-3%
-}*/
+.explanations {
+    text-align:justify;
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+    left: 10%;
+    font-style: normal;
+    font-size: 180%;
+    right: 0%;
     
-
-body{
-    
-    position:relative;
-    overflow: hidden;
 
 }
+
+.motherText{
+    font-family: French Script MT;
+    align-items: left;
+    justify-content: left;
+    flex-direction:column;
+    margin: 10px;
+    width: 600px;
+
+}
+
+.messangerPlatform{
+    align-items: left;
+}
+
+.secureBee{
+    color: rgb(255, 196, 0);
+    font-family: Calibri;
+}
+
+.button {
+    font-family: Calibri;
+    width: 40%;
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    align-items: center;
+    left: 10%;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+.button span {
+    position: relative;
+    transition: 0.5s;
+}
+
+
+.button:hover span {
+    padding-right: 25px;
+    left: 10%;
+}
+
+.polenBox {
+    border-color: black;
+    border-style: none;
+    border: solid;
+    
+}
+
+textarea {
+    width: 617px;
+    height: 153px;
+    border-color: black;
+    border-style: none;
+    border: solid;
+    
+}
+
+.messangerPolen {
+    font-family: Calibri;
+    font-size: 50%;
+}
+
+body {
+    
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
 /*criar a classe display none

@@ -14,7 +14,7 @@
 # [PROJETO ESCOLHIDO](#1-projeto-escolhido)
 
 <p align="center">
-<img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="200"/>
+<img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="300"/>
 </p>
 
 Em razão de ser o meu primeiro projeto, escolhi a **Cifra de César** devido a um menor grau de dificuldade e proposta mais simples.
@@ -25,7 +25,7 @@ Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados n
 # [RESUMO DO PROJETO E PUBLICO ALVO](#2-resumo-do-projeto-e-publico-alvo)
 
 <p align="center">
-<img src="imagensreadme/imagemdaabelinha.png" alt="Imagem de uma Abelhinha em uma Flor" width="200"/>
+<img src="imagensreadme/imagemdaabelinha.png" alt="Imagem de uma Abelhinha em uma Flor" width="300"/>
 </p>
 
 Imaginei a criação de uma aplicação web visualmente singela que fosse adequada a simplicidade da proposta do projeto.

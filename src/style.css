@@ -53,11 +53,9 @@
 
 .explanations {
     text-align:justify;
-    font-size: 20px;
     position: relative;
     margin-top: 20px;
     left: 10%;
-    font-style: normal;
     font-size: 180%;
     right: 0%;
     
@@ -66,7 +64,6 @@
 
 .motherText{
     font-family: French Script MT;
-    align-items: left;
     justify-content: left;
     flex-direction:column;
     margin: 10px;
@@ -114,7 +111,7 @@
 }
 
 textarea {
-    width: 617px;
+    width: 556px;
     height: 153px;
     border-color: black;
     border-style: none;
@@ -125,6 +122,14 @@ textarea {
 .messangerPolen {
     font-family: Calibri;
     font-size: 50%;
+}
+
+.idFrase1 {
+    display: none;
+}
+
+.idFrase2 {
+    display: none;
 }
 
 body {

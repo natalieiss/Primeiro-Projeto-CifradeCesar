@@ -2,7 +2,6 @@ const cipher = {
 
   encode: (offset, text) => {
     if (Number(text) || text == "" || text == null || offset == "" || offset == null) {
-      alert("ERRO: use apenas letras no campo de mensagens que a abelhinha ira carregar e não deixe o campo de mensagens em branco");
       throw new TypeError("ERRO:", "cipher.js", 4);
     }
     let textCipher = "";
@@ -14,7 +13,7 @@ const cipher = {
         let encodeValue = ((asciiNum + codeAscii + offset)) % 26 + codeAscii; //calculo para cifrar
         textCipher = textCipher + String.fromCharCode(encodeValue); //faz o contrario de charcodeat e ao inves de retornar o valor da tabela ascii retorna a letra
       } else {
-        textCipher = textCipher + String.fromCharCode(asciiNum); //ele ser para acrescentar algo que não seja modificado
+        textCipher = textCipher + String.fromCharCode(asciiNum); //ele serve para acrescentar algo que não seja modificado
       }
 
     }
@@ -22,8 +21,7 @@ const cipher = {
   },
 
   decode: (offset, text) => {
-    if(Number(text) || text == "" || text == null || offset == "" || offset == null){ 
-      alert("ERRO: use apenas letras no campo de mensagens que a abelhinha ira carregar e não deixe o campo de mensagens em branco");  
+    if (Number(text) || text == "" || text == null || offset == "" || offset == null) {
       throw new TypeError("ERRO:", "cipher.js", 4);
     }
     let textDecipher = "";

@@ -3,14 +3,40 @@ import cipher from './cipher.js';
 document.getElementById('buttonPolinizar').addEventListener("click", polinizar);
 document.getElementById('buttonDespolinizar').addEventListener("click", despolinizar);
 document.getElementById('buttonReturnColmeia').addEventListener("click", retornarAColmeia);
+document.getElementById('buttonPolinizar').addEventListener("click", fraseApear);
+document.getElementById('buttonDespolinizar').addEventListener("click", fraseApear2);
+const messangerPolinizar = document.getElementById("idFrase1").style.display = 'none';
+const mensagemDespolinizar = document.getElementById("idFrase2").style.display = 'none';
+
+function fraseApear(){
+  if (messangerPolinizar){
+    document.getElementById("idFrase1").style.display = 'block';
+  }else {
+    (messangerPolinizar);
+
+  }
+
+}
+
+function fraseApear2(){
+  if (mensagemDespolinizar){
+    document.getElementById("idFrase2").style.display = 'block';
+  }else {
+    (mensagemDespolinizar);
+  }
+}
+
+/*function aparecerfrase(){
+  if (document.getElementById("idDaFrase").style.display = 'none'){
+    document.getElementById("idDaFrase").style.display = 'block'
+}else{
+   (document.getElementById("idDaFrase").style.display = 'none') */
 
 function polinizar() {
 
   let text = document.getElementById("txt").value.toUpperCase();
   let offset = Number(document.getElementById("offset").value);
   document.getElementById("textResult").value = cipher.encode(offset, text);
-  /*polinizarTextValue.textContent let textContentVai = document.getElementById("txtResult")
-  textContentVai.textContent */ //utilizar esse procedimento para mensagens
 }
 
 
@@ -23,6 +49,8 @@ function despolinizar() {
 
 
 function retornarAColmeia() {
+  document.getElementById("idFrase2").style.display = 'none';
+  document.getElementById("idFrase1").style.display = 'none';
   document.getElementById("txt").value = "";
   document.getElementById("textResult").value = "";
   document.getElementById("offset").value = "1";

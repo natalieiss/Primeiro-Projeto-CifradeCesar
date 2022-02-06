@@ -107,7 +107,8 @@
     border-color: black;
     border-style: none;
     border: solid;
-    float: right;
+    float: left;
+    position: relative;
     
 }
 

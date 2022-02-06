@@ -2,9 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: border-box
-    
-    
+    box-sizing: border-box  
 }
 
 .imgOne img{
@@ -125,6 +123,7 @@ textarea {
     font-family: Calibri;
     font-size: 50%;
 }
+
 
 .idFrase {
     display: none;

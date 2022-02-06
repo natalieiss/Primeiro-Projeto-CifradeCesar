@@ -41,7 +41,7 @@
     width: 1000px;
 }
 
-.letterOnce {
+.letterOne {
     font-family: Calibri;
     font-weight: 400;
     font-style: normal;
@@ -107,6 +107,7 @@
     border-color: black;
     border-style: none;
     border: solid;
+    float: right;
     
 }
 
@@ -124,19 +125,22 @@ textarea {
     font-size: 50%;
 }
 
-.idFrase1 {
-    display: none;
-}
-
-.idFrase2 {
+.idFrase {
     display: none;
 }
 
 body {
-    
     position: relative;
     overflow-x: hidden;
 
+}
+
+footer {
+    position: relative;
+    font-family: Calibri;
+    left: 50%;
+    justify-content: right;
+    font-weight: bold;
 }
 
 input[type=number]::-webkit-inner-spin-button, 

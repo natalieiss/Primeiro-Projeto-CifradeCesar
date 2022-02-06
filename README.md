@@ -32,7 +32,7 @@ Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados n
 
 <p align=justify>Imaginei a criação de uma aplicação web visualmente objetiva que fosse adequada a simplicidade da proposta do projeto.
 
-Com o auxílio do aplicativo FIGMA iniciei a criação de um protótipo e com base nele realizei uma pesquisa UX que constituiu apenas em uma breve apresentação do conteúdo às pessoas do meu convívio social. 
+Com o auxílio do aplicativo FIGMA iniciei a criação de um protótipo (https://www.figma.com/file/VlhZ55llqn8NyBHKSyWcjM/Untitled?node-id=0%3A1) e com base nele realizei uma pesquisa UX que constituiu apenas em uma breve apresentação do conteúdo às pessoas do meu convívio social. 
 Através dessa breve pesquisa iniciei o desenvolvimento da aplicação web sempre com a intenção de que a experiência de usuário no site fosse rápida, fácil e segura.
 
 Atualmente nos deparamos com crianças portando tablets e aparelhos celulares com aplicativos de mensagens instalados os quais já utilizam para troca de mensagens com seus parentes e amigos. Desta forma, imaginei um sistema de segurança baseado na Cifra de César que fosse ainda mais fácil compreender e destinado a crianças que já iniciaram a leitura e a escrita, o que ocorre por volta dos 7 anos de idade, com abrangência a idade adulta.

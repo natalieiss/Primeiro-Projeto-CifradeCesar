@@ -1,10 +1,5 @@
 import cipher from './cipher.js';
 
-document.getElementById('buttonPolinizar').addEventListener("click", polinizar);
-document.getElementById('buttonDespolinizar').addEventListener("click", despolinizar);
-document.getElementById('buttonReturnColmeia').addEventListener("click", retornarAColmeia);
-document.getElementById('buttonPolinizar').addEventListener("click", fraseApear);
-document.getElementById('buttonDespolinizar').addEventListener("click", fraseApear2);
 const messangerPolinizar = document.getElementById("idFrase1").style.display = 'none';
 const mensagemDespolinizar = document.getElementById("idFrase2").style.display = 'none';
 
@@ -13,9 +8,7 @@ function fraseApear(){
     document.getElementById("idFrase1").style.display = 'block';
   }else {
     (messangerPolinizar);
-
   }
-
 }
 
 function fraseApear2(){
@@ -55,6 +48,12 @@ function retornarAColmeia() {
   document.getElementById("textResult").value = "";
   document.getElementById("offset").value = "1";
 }
+
+document.getElementById('buttonPolinizar').addEventListener("click", polinizar);
+document.getElementById('buttonDespolinizar').addEventListener("click", despolinizar);
+document.getElementById('buttonReturnColmeia').addEventListener("click", retornarAColmeia);
+document.getElementById('buttonPolinizar').addEventListener("click", fraseApear);
+document.getElementById('buttonDespolinizar').addEventListener("click", fraseApear2);
 
 
 /* const messangerDecod = document.getElementById("letters") // const para pegar o valor de letters e gravar na variavel pra manipular no js as palavras

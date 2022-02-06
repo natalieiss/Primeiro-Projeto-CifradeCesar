@@ -17,7 +17,7 @@
 <img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="200"/>
 </p>
 
-<p align=justify>Em razão de ser o meu primeiro projeto, escolhi a **Cifra de César** devido a um menor grau de dificuldade e proposta mais simples.
+<p align="justify">Em razão de ser o meu primeiro projeto, escolhi a **Cifra de César** devido a um menor grau de dificuldade e proposta mais simples.
 
 Com o advento dos aplicativos de troca de mensagens instantâneas, é de extrema importância a utilização de plataformas que possuem a tecnologia de criptografia, para uma maior segurança.
 
@@ -30,7 +30,7 @@ Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados n
 <img src="imagensreadme/imagemdaabelhinha.png" alt="Imagem de uma Abelhinha em uma Flor" width="200"/>
 </p>
 
-<p align=justify>Imaginei a criação de uma aplicação web visualmente objetiva que fosse adequada a simplicidade da proposta do projeto.
+<p align="justify">Imaginei a criação de uma aplicação web visualmente objetiva que fosse adequada a simplicidade da proposta do projeto.
 
 Com o auxílio do aplicativo FIGMA iniciei a criação de um protótipo (https://www.figma.com/file/VlhZ55llqn8NyBHKSyWcjM/Untitled?node-id=0%3A1) e com base nele realizei uma pesquisa UX que constituiu apenas em uma breve apresentação do conteúdo às pessoas do meu convívio social. 
 Através dessa breve pesquisa iniciei o desenvolvimento da aplicação web sempre com a intenção de que a experiência de usuário no site fosse rápida, fácil e segura.

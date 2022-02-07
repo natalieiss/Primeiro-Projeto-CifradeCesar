@@ -1,40 +1,34 @@
 import cipher from './cipher.js';
 
-const messangerPolinizar = document.getElementById("idFrase1").style.display = 'none';
-const mensagemDespolinizar = document.getElementById("idFrase2").style.display = 'none';
+const messagePollination = document.getElementById("idFirstFrase").style.display = 'none';
+const messageDepollination = document.getElementById("idSecondFrase").style.display = 'none';
 
 function fraseApear(){
-  if (messangerPolinizar){
-    document.getElementById("idFrase1").style.display = 'block';
+  if (messagePollination){
+    document.getElementById("idFirstFrase").style.display = 'block';
   }else {
-    (messangerPolinizar);
+    (messagePollination);
   }
 }
 
 function fraseApear2(){
-  if (mensagemDespolinizar){
-    document.getElementById("idFrase2").style.display = 'block';
+  if (messageDepollination){
+    document.getElementById("idSecondFrase").style.display = 'block';
   }else {
-    (mensagemDespolinizar);
+    (messageDepollination);
   }
 }
 
-/*function aparecerfrase(){
-  if (document.getElementById("idDaFrase").style.display = 'none'){
-    document.getElementById("idDaFrase").style.display = 'block'
-}else{
-   (document.getElementById("idDaFrase").style.display = 'none') */
+function pollination() {
 
-function polinizar() {
-
-  let text = document.getElementById("txt").value.toUpperCase();
+  let text = document.getElementById("text").value.toUpperCase();
   let offset = Number(document.getElementById("offset").value);
   document.getElementById("textResult").value = cipher.encode(offset, text);
 }
 
 
-function despolinizar() {
-  let text = document.getElementById("txt").value.toUpperCase();
+function depollination() {
+  let text = document.getElementById("text").value.toUpperCase();
   let offset = Number(document.getElementById("offset").value);
 
   document.getElementById("textResult").value = cipher.decode(offset, text);
@@ -42,46 +36,15 @@ function despolinizar() {
 
 
 function retornarAColmeia() {
-  document.getElementById("idFrase2").style.display = 'none';
-  document.getElementById("idFrase1").style.display = 'none';
-  document.getElementById("txt").value = "";
+  document.getElementById("idFirstFrase").style.display = 'none';
+  document.getElementById("idSecondFrase").style.display = 'none';
+  document.getElementById("text").value = "";
   document.getElementById("textResult").value = "";
   document.getElementById("offset").value = "1";
 }
 
-document.getElementById('buttonPolinizar').addEventListener("click", polinizar);
-document.getElementById('buttonDespolinizar').addEventListener("click", despolinizar);
+document.getElementById('buttonPollination').addEventListener("click", pollination);
+document.getElementById('buttonDepollination').addEventListener("click", depollination);
 document.getElementById('buttonReturnColmeia').addEventListener("click", retornarAColmeia);
-document.getElementById('buttonPolinizar').addEventListener("click", fraseApear);
-document.getElementById('buttonDespolinizar').addEventListener("click", fraseApear2);
-
-
-/* const messangerDecod = document.getElementById("letters") // const para pegar o valor de letters e gravar na variavel pra manipular no js as palavras
-const offsetJs = document.getElementById("offset") // const para pegar o valor de offset no html e gravar na variavel pra manipular no js o numero escolhido
-const buttonHtml = document.getElementById("send1") // const para pegar o valor de send1 (botão) e gravar na variavel
-// as variaveis acima não possuem .value pois iriam capturar um valor antes mesmo dele existir
-
-let offsetValue //variavel criada para ser manipulada na função pra agregar o valor de offsetJs
-let nameValue //variavel criada para ser manipulada na função
-
-function offsetMessangerDecode() {
-    offsetValue = offsetJs.value //offsetValue e nameValue sendo manipulado para coletar os valores que o usuario ira utilizar
-    nameValue = messangerDecod.value
-    console.log(nameValue, offsetValue)
-    cipher.code(nameValue, offsetValue)
-}
-
-buttonHtml.addEventListener('click', offsetMessangerDecode) // evento para que o botão inicie a captura das letras e numeros escolhidos pelo usuário
-
-import cipher from './cipher.js';
-
-
-/*console.log("letters1")
-
-
-console.log(cipher);
-
-console.log('') */
-
-
-//usar code e decode */
+document.getElementById('buttonPollination').addEventListener("click", fraseApear);
+document.getElementById('buttonDepollination').addEventListener("click", fraseApear2);

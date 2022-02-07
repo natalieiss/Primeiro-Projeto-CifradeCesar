@@ -50,7 +50,7 @@
 }
 
 .explanations {
-    text-align:justify;
+    text-align: justify;
     position: relative;
     margin-top: 20px;
     left: 10%;
@@ -67,10 +67,6 @@
     margin: 10px;
     width: 600px;
 
-}
-
-.messangerPlatform{
-    align-items: left;
 }
 
 .secureBee{
@@ -90,7 +86,20 @@
     padding: 1rem;
 }
 
-.button span {
+.button:hover, .button:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #e0730d inset;
+}
+
+/*.button span {
     position: relative;
     transition: 0.5s;
 }
@@ -99,7 +108,7 @@
 .button:hover span {
     padding-right: 25px;
     left: 10%;
-}
+}*/
 
 .pollenBox {
     border-color: black;
@@ -111,11 +120,12 @@
 }
 
 textarea {
-    width: 556px;
-    height: 153px;
+    width: 547px;
+    height: 87px;
     border-color: black;
     border-style: none;
     border: solid;
+    resize: none;
     
 }
 
@@ -127,6 +137,11 @@ textarea {
 
 .frases {
     display: none;
+    justify-content: left;
+    flex-direction:column;
+    margin: 10px;
+    width: 600px;
+    position: relative;
 }
 
 body {
@@ -138,14 +153,19 @@ body {
 footer {
     position: relative;
     font-family: Calibri;
-    left: 50%;
+    left: 40%;
     justify-content: right;
     font-weight: bold;
+    margin-bottom: 100px;
+    padding-top: 30px;
+    font-size: larger;
+}
+
+.zero {
+    height: 80px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button {
   opacity: 1;
 }
-
-/*criar a classe display none

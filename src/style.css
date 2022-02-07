@@ -44,7 +44,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 72px;
-    line-height: 87,89px;
+    line-height: 87.89px;
     letter-spacing: 3%;
     color:rgb(255, 196, 0);
 }
@@ -101,7 +101,7 @@
     left: 10%;
 }
 
-.polenBox {
+.pollenBox {
     border-color: black;
     border-style: none;
     border: solid;
@@ -119,13 +119,13 @@ textarea {
     
 }
 
-.messangerPolen {
+.messagePollen {
     font-family: Calibri;
     font-size: 50%;
 }
 
 
-.idFrase {
+.frases {
     display: none;
 }
 

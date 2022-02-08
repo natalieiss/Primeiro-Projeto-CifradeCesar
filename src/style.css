@@ -5,6 +5,13 @@
     box-sizing: border-box  
 }
 
+@font-face {
+    font-family: 'indieFlower';
+    src: url(./fontes/DancingScript-VariableFont_wght.ttf) format('truetype'),url(./fontes/OFL.txt) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .imgOne img{
     float: left;
     padding: 5px;
@@ -29,7 +36,7 @@
 }
 
 .headOne {
-    font-family: French Script MT;
+    font-family: 'indieFlower';
     font-weight: 400;
     font-style: normal;
     font-size: 34px;
@@ -61,7 +68,7 @@
 }
 
 .motherText{
-    font-family: French Script MT;
+    font-family: 'indieFlower';
     justify-content: left;
     flex-direction:column;
     margin: 10px;
@@ -98,17 +105,6 @@
 .first:hover {
   box-shadow: 0 0 40px 40px #e0730d inset;
 }
-
-/*.button span {
-    position: relative;
-    transition: 0.5s;
-}
-
-
-.button:hover span {
-    padding-right: 25px;
-    left: 10%;
-}*/
 
 .pollenBox {
     border-color: black;

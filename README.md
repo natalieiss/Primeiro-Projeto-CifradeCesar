@@ -35,7 +35,7 @@ Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados n
 Com o auxílio do aplicativo FIGMA iniciei a criação de um protótipo (https://www.figma.com/file/VlhZ55llqn8NyBHKSyWcjM/Untitled?node-id=0%3A1) e com base nele realizei uma pesquisa UX que constituiu apenas em uma breve apresentação do conteúdo às pessoas do meu convívio social. 
 Através dessa breve pesquisa iniciei o desenvolvimento da aplicação web sempre com a intenção de que a experiência de usuário no site fosse rápida, fácil e segura.
 
-Atualmente nos deparamos com crianças portando tablets e aparelhos celulares com aplicativos de mensagens instalados os quais já utilizam para troca de mensagens com seus parentes e amigos. Desta forma, imaginei um sistema de segurança baseado na Cifra de César que fosse ainda mais fácil compreender e destinado a crianças que já iniciaram a leitura e a escrita, o que ocorre por volta dos 7 anos de idade, com abrangência a idade adulta.
+Atualmente nos deparamos com crianças portando tablets e aparelhos celulares com aplicativos de mensagens instalados os quais já utilizam para troca de mensagens com seus parentes e amigos. Desta forma, imaginei um sistema de segurança baseado na Cifra de César que fosse ainda mais fácil compreender e destinado a crianças que já iniciaram a leitura e a escrita, o que ocorre por volta dos 7 anos de idade abrangendo também, toda a idade adulta.
 
 Os desenhos e imagens presentes neste projeto remetem aos utilizados para colorir nas escolinhas. A abelha aqui funciona como uma portadora da mensagem segura por isso o nome SecureBee.
 Ao lado direito da página posicionei uma imagem de colorir de uma avenida em uma grande cidade pois a colmeia das abelhinhas da SecureBee seriam um ambiente urbano. 

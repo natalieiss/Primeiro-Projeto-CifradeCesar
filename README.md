@@ -17,7 +17,7 @@
 <img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="200"/>
 </p>
 
-<p align="justify">Em razão de ser o meu primeiro projeto, escolhi a **Cifra de César** devido a um menor grau de dificuldade e proposta mais simples.
+<p align="justify">Em razão de ser o meu primeiro projeto, escolhi a <strong>Cifra de César</strong> devido a um menor grau de dificuldade e proposta mais simples.
 
 Com o advento dos aplicativos de troca de mensagens instantâneas, é de extrema importância a utilização de plataformas que possuem a tecnologia de criptografia, para uma maior segurança.
 

@@ -17,7 +17,7 @@
 <img src="imagensreadme/cifradecesar.jpeg" alt="Imagem Representando a Cifra de César" width="200"/>
 </p>
 
-<p align="justify">Em razão de ser o meu primeiro projeto, escolhi a <strong>Cifra de César</strong> devido a um menor grau de dificuldade e proposta mais simples.
+<p align="justify">Em razão de ser o meu primeiro projeto, escolhi a <strong>Cifra de César (clique <a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="_blank">aqui</a> para ler sobre)</strong> devido a um menor grau de dificuldade e proposta mais simples.
 
 Com o advento dos aplicativos de troca de mensagens instantâneas, é de extrema importância a utilização de plataformas que possuem a tecnologia de criptografia, para uma maior segurança.
 
@@ -40,7 +40,7 @@ Atualmente nos deparamos com crianças portando tablets e aparelhos celulares co
 Os desenhos e imagens presentes neste projeto remetem aos utilizados para colorir nas escolinhas. A abelha aqui funciona como uma portadora da mensagem segura por isso o nome SecureBee.
 Ao lado direito da página posicionei uma imagem de colorir de uma avenida em uma grande cidade pois a colmeia das abelhinhas da SecureBee seriam um ambiente urbano. 
 
-Sabemos que as abelhinhas, na natureza, são importantes polinizadoras e fazem o papel de transportar os pólens de uma flor masculina para uma flor feminina. As abelhinhas que imaginei para a SecureBee seriam as responsáveis pelo funcionamento de todo o mecanismo da Cifra de César. Os pólens seriam o deslocamento das letras, a polinização seria a função cifrar e a despolização (palavra criada por mim) seria a função de decifrar.
+Sabemos que as abelhinhas, na natureza, são importantes polinizadoras e fazem o papel de transportar os polens de uma flor masculina para uma flor feminina. As abelhinhas que imaginei para a SecureBee seriam as responsáveis pelo funcionamento de todo o mecanismo da Cifra de César. Os polens seriam o deslocamento das letras, a polinização seria a função cifrar e a despolização (palavra criada por mim) seria a função de decifrar.
 
 Através desse mecanismo as abelhinhas fariam um trajeto fictício, portando a mensagem do usuário para que seja cifrada ou decifrada de acordo com a opção escolhida.</p>
 

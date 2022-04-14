@@ -62,7 +62,7 @@ Estas são as propostas destinadas ao usuário:
 <img src="imagensreadme/objetivosdeaprendizagem.jpg" alt="Imagem representando os Objetivos de Aprendizagem" width="300"/>
 </p>
 
-<p align="justify">Este projeto veio acompanhado de uma lista de objetivos de aprendizagem, sendo assim, segui todas as recomendações contidas no README do projeto tentando sempre aprimorar o conhecimento nos tópicos ressaltados pela equipe e acredito que aprimorei minhas habilidades nos seguintes tópicos:</p> 
+<p align="justify">Este projeto veio acompanhado de uma lista de objetivos de aprendizagem, sendo assim, segui todas as recomendações contidas no README do projeto tentando sempre aprimorar o conhecimento nos tópicos ressaltados pela equipe. Acredito que aprimorei minhas habilidades nos seguintes tópicos:</p> 
 
 - SELETORES CSS;
 - HTML SEMÂNTICO;

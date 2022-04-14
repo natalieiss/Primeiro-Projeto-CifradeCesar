@@ -79,7 +79,7 @@ Estas são as propostas destinadas ao usuário:
 
 Este projeto está disponível para utilização e visualização online através do seguinte endereço web (URL):
 
-- https://natalieiss.github.io/SAP007-cipher/
+- https://natalieiss.github.io/Primeiro-Projeto-CifradeCesar/
 
 Para utilizar este endereço web (URL) o usuário deverá ter instalado em seu dispositivo um navegador web (Google Chrome, Mozilla Firefox, Internet Explorer e outros).
 

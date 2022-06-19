@@ -21,7 +21,7 @@
 
 Com o advento dos aplicativos de troca de mensagens instantâneas, é de extrema importância a utilização de plataformas que possuem a tecnologia de criptografia, para uma maior segurança.
 
-Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados não autorizados, desta forma, achei interessante utilizar esse método simples para uma maior compreensão desses mecanismos de segurança. Acredito que esse projeto me ajudou a compreender e aplicar os princípios básicos de lógica de programação JS ajudando na minha formação como desenvolvedora web.</p>
+Sabe-se que quando acessamos a internet estamos vulneráveis a coleta de dados não autorizados, desta forma, achei interessante utilizar esse método simples para uma maior compreensão desses mecanismos de segurança. Acredito que esse projeto me ajudou a compreender e aplicar os princípios básicos de lógica de programação JS auxiliando na minha formação como desenvolvedora web.</p>
 
 
 # RESUMO DO PROJETO E PUBLICO ALVO

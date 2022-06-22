@@ -61,7 +61,7 @@ Estas são as propostas destinadas ao usuário:
   <img width="600" height="255" src="./src/assets/readme/webdemonstration.gif"/>
 </p>
 
-# Futuro do Projeto
+# FUTURO DO PROJETO
 
 Fururamente este projeto será refatorado. Haverá implementações no CSS e acrescimo de reponsividade.
 

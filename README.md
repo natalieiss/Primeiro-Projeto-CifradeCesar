@@ -64,6 +64,7 @@ Estas são as propostas destinadas ao usuário:
 # FUTURO DO PROJETO
 
 Fururamente este projeto será refatorado. Haverá implementações no CSS e acrescimo de reponsividade.
+Serão acrescentados recursos para melhorar a acessibilidade na aplicação.
 
 # OBJETIVOS DE APRENDIZAGEM ALCANÇADOS
 
